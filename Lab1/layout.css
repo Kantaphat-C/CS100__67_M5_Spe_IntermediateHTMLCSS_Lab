@@ -8,9 +8,46 @@ body{
     width: 100%;
     font-family: Arial, sans-serif;
 }
-header,nav,article,div,footer{
+article{
     padding: 10px;
-    background-color: yellow;
+    background-color: rgb(236, 236, 229);
     border: 1px solid gray;
     text-align: center;
+    float: left;
+    width: 60%;
+    height: 200px;
+}
+nav{
+    padding: 10px;
+    background-color: rgb(238, 153, 132);
+    border: 1px solid gray;
+    text-align: center;
+    float: left;
+    width: 20%;
+    height: 200px;
+}
+div{
+    padding: 10px;
+    background-color: rgb(128, 167, 240);
+    border: 1px solid gray;
+    text-align: center;
+    float: left;
+    width: 20%;
+    height: 200px;
+}
+header{
+    padding: 10px;
+    background-color: rgb(245, 204, 68);
+    border: 1px solid gray;
+    text-align: center;
+    width: 100%;
+    clear: both;
+}
+footer{
+    padding: 10px;
+    background-color: rgb(161, 161, 153);
+    border: 1px solid gray;
+    text-align: center;
+    width: 100%;
+    clear: both;
 }
